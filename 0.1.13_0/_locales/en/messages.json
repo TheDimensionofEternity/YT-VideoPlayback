@@ -1,0 +1,41 @@
+{
+   "appDesc": {
+      "message": "Controls the playback rate of YouTube videos more extensively"
+   },
+   "appName": {
+      "message": "Video playback rate control for YouTube™"
+   },
+   "decrease_playback_rate": {
+      "message": "Decrease playback rate"
+   },
+   "forward_shortcut_text": {
+      "message": "Fast forward"
+   },
+   "increase_playback_rate": {
+      "message": "Increase playback rate"
+   },
+   "keyboard_shortcuts": {
+      "message": "Keyboard Shortcuts"
+   },
+   "max_playback_rate": {
+      "message": "The playbackrate is up to 16x"
+   },
+   "rewind_forward_time_label": {
+      "message": "Seektime:"
+   },
+   "rewind_shortcut_text": {
+      "message": "Rewind"
+   },
+   "sec_label": {
+      "message": "Sec"
+   },
+   "step_label": {
+      "message": "Step:"
+   },
+   "use_second_seek_label": {
+      "message": "Custom seek time Rewind/Fast forward"
+   },
+   "view_speedrate_label": {
+      "message": "playback rate display on controlbar"
+   }
+}

@@ -1,0 +1,41 @@
+{
+   "appDesc": {
+      "message": "유튜브 영상의 재생 속도를 더 세밀하고 광범위하게 조절합니다."
+   },
+   "appName": {
+      "message": "비디오 재생 속도 조절 for YouTube™"
+   },
+   "decrease_playback_rate": {
+      "message": "재생 속도 느리게"
+   },
+   "forward_shortcut_text": {
+      "message": "앞으로 건너뛰기"
+   },
+   "increase_playback_rate": {
+      "message": "재생 속도 빠르게"
+   },
+   "keyboard_shortcuts": {
+      "message": "키보드 단축키"
+   },
+   "max_playback_rate": {
+      "message": "재생속도는 최대 16x 까지"
+   },
+   "rewind_forward_time_label": {
+      "message": "이동 시간:"
+   },
+   "rewind_shortcut_text": {
+      "message": "되감기"
+   },
+   "sec_label": {
+      "message": "초"
+   },
+   "step_label": {
+      "message": "단계:"
+   },
+   "use_second_seek_label": {
+      "message": "시간 지정 되감기/빨리감기 사용"
+   },
+   "view_speedrate_label": {
+      "message": "현재 재생속도를 컨트롤바에 표시"
+   }
+}

@@ -1,0 +1,54 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Options</title>
+		<link rel='stylesheet' href='options.css'/> 
+		<script src="options.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<div class="checkbox_area">
+				<input type="checkbox" id="check_view_speedrate_id" name="check_view_speedrate">
+				<label for="check_view_speedrate_id" id="view_speedrate_label">현재 재생속도 보기</label>
+			</div>
+			<div id="add_data_form">
+				<span class="step_label">단계:</span>
+				<select required id="speedrate_step">
+					<option value="s0125">0.125</option>
+					<option value="s0250" selected>0.25 (default)</option>
+				</select>
+				<span class="sec_label">초</span>
+			</div>
+			<div class="notice">
+					<h3 class="keyboard_shortcuts">키보드 단축키</h3>
+					<p><span class="decrease_playback_rate">재생 속도 느리게</span>&nbsp;<span>&lt; (SHIFT + ,)</span></p>
+					<p><span class="increase_playback_rate">재생 속도 빠르게</span>&nbsp;<span>&gt; (SHIFT + .)</span></p>
+					<p><span class="max_playback_rate">속도는 최대 16x 까지</span></p>
+				</div>
+			<hr>
+			<div>
+				<div class="checkbox_area">
+					<input type="checkbox" id="check_use_second_seek_id" name="check_use_second_seek">
+					<label for="check_use_second_seek_id" id="use_second_seek_label">시간 지정 되감기/빨리감기 사용</label>
+				</div>
+				<div class="range_area">
+					<span class="rewind_forward_time_label">시간 지정:</span>
+					
+					<label class="seektime_label"></label>
+					&nbsp;
+					<span class="sec_label">초</span>
+					<input type="range" id="seektime_id" min="1" max="4" step="1">
+				</div>
+				<div class="notice">
+					<p><span><span class="rewind_shortcut_text">시간 지정 되감기</span>&nbsp;(<label class="seektime_label"></label>&nbsp;<span class="sec_label">초</span>)</span><span>SHIFT + ←</span></p>
+					<p><span><span class="forward_shortcut_text">시간 지정 앞으로 건너뛰기</span>&nbsp;(<label class="seektime_label"></label>&nbsp;<span class="sec_label">초</span>)</span><span>SHIFT + →</span></p>
+				</div>
+			</div>
+		</div>
+	</body>
+</footer>
+</html>
+
+
+

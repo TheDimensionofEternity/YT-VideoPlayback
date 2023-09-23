@@ -1,0 +1,35 @@
+{
+   "action": {
+      "default_icon": "icon128.png",
+      "default_popup": "options.html",
+      "default_title": "__MSG_appName__"
+   },
+   "background": {
+      "service_worker": "background.js"
+   },
+   "content_scripts": [ {
+      "all_frames": true,
+      "js": [ "/script.js" ],
+      "matches": [ "https://*.youtube.com/*" ],
+      "run_at": "document_end"
+   } ],
+   "default_locale": "en",
+   "description": "__MSG_appDesc__",
+   "differential_fingerprint": "1.b1e6581c8ece112d58f2096e98618fbf4cac89c0386dd7483bfa1dbf927bb35e",
+   "icons": {
+      "128": "icon128.png",
+      "16": "icon16.png",
+      "48": "icon48.png"
+   },
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtVo5edpovA0+d2GCy46DnS5GZvq6R3gZLXdw1WbCZpYmpLlXyZ34E5cTDc/H6Nx4ASLJmXWkfqpcV3iVMm2swFHpBasLRwMVr+AAfyQWXEWAEZaSLfGQw1cf9Sa4A1JWAwsF463wcoNxXFXmNpd2ETh3OoHOWvtzuSWNRTNBKdl3FkV7ZfHvzmCNq2JiBttrDax/IoJpjWPjbEr2iM5yUX84GRpw0PU7v0LlUH01ajQlgjCybI5ac8Qoa+XZdy71s3kqkmQDydsieqmhCg59SDLRekHK64c/8z9zxjM+LX6Jp+C4dx939naq0vdm/4AqxVEoAkVuiGXfnDpr6F/6NwIDAQAB",
+   "manifest_version": 3,
+   "minimum_chrome_version": "88",
+   "name": "__MSG_appName__",
+   "options_ui": {
+      "open_in_tab": false,
+      "page": "options.html"
+   },
+   "permissions": [ "storage" ],
+   "update_url": "https://clients2.google.com/service/update2/crx",
+   "version": "0.1.13"
+}
